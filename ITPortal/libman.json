@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "datepicker@1.0.10",
+      "destination": "lib/datepicker/",
+      "files": [
+        "datepicker.min.js",
+        "datepicker.min.css",
+        "datepicker.common.min.js",
+        "datepicker.esm.min.js"
+      ]
+    },
+    {
+      "library": "bootstrap-datepicker@1.9.0",
+      "destination": "lib/bootstrap-datepicker/",
+      "files": [
+        "js/bootstrap-datepicker.min.js"
+      ]
+    },
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "lib/sweetalert/"
+    }
+  ]
+}
